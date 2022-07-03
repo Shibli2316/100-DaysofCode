@@ -18,5 +18,5 @@ My resources are as follows:
 <li>30 Days of React
 <li>30 Days of Python
 <li> Angela's Web dev bootcamp
-Alongside learning and making projects I will also focus on enhancing my web dev skills. And if time permits I will go for cyber security too. 
+<p>Alongside learning and making projects I will also focus on enhancing my web dev skills. And if time permits I will go for cyber security too. </p>
 <p><em>Let the game begin</em></p>

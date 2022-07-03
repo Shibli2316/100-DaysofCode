@@ -15,6 +15,4 @@ print(type(var3))
 
 
 flag = False
-print(isinstance(flag, bool))
-
-
+print(isinstance(flag, bool))  #To print the datatype we can use the isinstance method too apart from type class

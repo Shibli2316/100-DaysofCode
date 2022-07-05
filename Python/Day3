@@ -1,46 +1,85 @@
-from cmath import sqrt
+# from cmath import sqrt
 
 
-list1=[2,3]
-list2=[10,8]
-xcor= pow(list2[0]-list1[0], 2)
-ycor= pow(list2[1]-list1[1], 2)
-ans1=xcor+ycor
-ans=pow(ans1, 0.5)
-print(ans)
+# list1=[2,3]
+# list2=[10,8]
+# xcor= pow(list2[0]-list1[0], 2)
+# ycor= pow(list2[1]-list1[1], 2)
+# ans1=xcor+ycor
+# ans=pow(ans1, 0.5)
+# print(ans)
 
-# Day 2 questions from 30 Days of Python
+# # Day 2 questions from 30 Days of Python
 
-from operator import le
+# from operator import le
 
 
-first_name = "Ahmad"
-middle_name = "Raza"
-last_name = "Shibli"
-full_name = "Ahmad Raza Shibli"
-country = "India"
-city = "Aligarh"
-age = 20
-year = 2022
-is_married = False
-is_true = True
-is_light_on = True
-multiple_variable, in_a_line = True, "Yes"
-print(type(first_name))
-print(type(middle_name))
-print(type(last_name))
-print(type(full_name))
-print(type(country))
-print(type(city))
-print(type(age))
-print(type(year))
-print(type(is_married))
-print(type(is_true))
-print(type(is_light_on))
-print(len(first_name))
-print(len(first_name), len(last_name))
+# first_name = "Ahmad"
+# middle_name = "Raza"
+# last_name = "Shibli"
+# full_name = "Ahmad Raza Shibli"
+# country = "India"
+# city = "Aligarh"
+# age = 20
+# year = 2022
+# is_married = False
+# is_true = True
+# is_light_on = True
+# multiple_variable, in_a_line = True, "Yes"
+# print(type(first_name))
+# print(type(middle_name))
+# print(type(last_name))
+# print(type(full_name))
+# print(type(country))
+# print(type(city))
+# print(type(age))
+# print(type(year))
+# print(type(is_married))
+# print(type(is_true))
+# print(type(is_light_on))
+# print(len(first_name))
+# print(len(first_name), len(last_name))
 
-radius = int(input("Enter the radius of the circle: "))
-area_of_circle = 3.14*pow(radius, 2)
-circum_of_circle = 2*3.14*radius
-print(f"The area of the circle is {area_of_circle} and the circumference is {circum_of_circle}")
+# radius = int(input("Enter the radius of the circle: "))
+# area_of_circle = 3.14*pow(radius, 2)
+# circum_of_circle = 2*3.14*radius
+# print(f"The area of the circle is {area_of_circle} and the circumference is {circum_of_circle}")
+
+
+# Day 3 questions from the repo of 30 days of python
+
+from math import floor
+
+
+age = int(20)
+height = float(5.10)
+var_complex = (1+2j)
+
+
+# base = int(input("Enter base: "))
+# height = int(input("Enter height: "))
+# print("The area of the triangle is ", 0.5*base*height)
+
+
+# sideA = int(input("Enter the length of side A of the triangle: "))
+# sideB = int(input("Enter the length of side B of the triangle: "))
+# sideC = int(input("Enter the length of side Cof the triangle: "))
+# print("The perimeter of the triangle is: ", sideA+sideB+sideC)
+
+
+x1 = 0
+y1 = 2*x1-2
+print(y1)
+y2 = 0
+x2 = int((y2+2)/2)
+print(x2)
+slope = (y2-y1)/(x2-x1)
+print(int(slope))
+print('on' in 'python' and 'on' in 'dragon')
+print(7//3==int(2.7))
+
+
+
+hours = int(input("Enter working hours: "))
+rate = int(input("Enter rate per hour: "))
+print("Your weekly earning is ", hours*rate)

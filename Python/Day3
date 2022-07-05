@@ -1,0 +1,46 @@
+from cmath import sqrt
+
+
+list1=[2,3]
+list2=[10,8]
+xcor= pow(list2[0]-list1[0], 2)
+ycor= pow(list2[1]-list1[1], 2)
+ans1=xcor+ycor
+ans=pow(ans1, 0.5)
+print(ans)
+
+# Day 2 questions from 30 Days of Python
+
+from operator import le
+
+
+first_name = "Ahmad"
+middle_name = "Raza"
+last_name = "Shibli"
+full_name = "Ahmad Raza Shibli"
+country = "India"
+city = "Aligarh"
+age = 20
+year = 2022
+is_married = False
+is_true = True
+is_light_on = True
+multiple_variable, in_a_line = True, "Yes"
+print(type(first_name))
+print(type(middle_name))
+print(type(last_name))
+print(type(full_name))
+print(type(country))
+print(type(city))
+print(type(age))
+print(type(year))
+print(type(is_married))
+print(type(is_true))
+print(type(is_light_on))
+print(len(first_name))
+print(len(first_name), len(last_name))
+
+radius = int(input("Enter the radius of the circle: "))
+area_of_circle = 3.14*pow(radius, 2)
+circum_of_circle = 2*3.14*radius
+print(f"The area of the circle is {area_of_circle} and the circumference is {circum_of_circle}")

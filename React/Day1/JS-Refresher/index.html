@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // giving the same name to a variable with var does not give an error but it will give an error if we use let keyword
+        // var a = 34;
+        // var a = "This is me";
+        // const a = 45;
+        let a = 45;
+        a = 4554+4;
+        console.log(a)
+
+        // Data types in JS
+        // Numbers 
+        // Booleans
+        // Strings
+        // undefined
+        // function
+        function hello(){
+            console.log("Hey harry");
+        }
+
+        // Objects
+        let obja = {
+            r:34,
+            m:64,
+            func: function myfunc(number) {
+                console.log("The number is " + number);
+            }
+        }
+        document.addEventListener("click", function click(){
+            console.log("Hello");
+            alert("hey there");
+            let conf = confirm("Are you sure");
+            console.log(conf);
+        });
+        setTimeout(() => {
+            console.log("yayyyyy");
+        }, 3000);
+    </script>
+</head>
+<body>
+    <h1>I am learning JS</h1>
+</body>
+</html>

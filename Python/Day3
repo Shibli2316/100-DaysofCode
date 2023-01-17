@@ -83,3 +83,6 @@ print(7//3==int(2.7))
 hours = int(input("Enter working hours: "))
 rate = int(input("Enter rate per hour: "))
 print("Your weekly earning is ", hours*rate)
+
+work = int(input("Enter the working hours"))
+print("The wprking hours is ", work)
